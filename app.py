@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.path.join(BASE_DIR, "chat_history.json")
 
 # Retrieve API key securely from environment variables, or fallback to key if defined
-OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "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")
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "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")
 
 
 def get_history():
